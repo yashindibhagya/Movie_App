@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     extend: {},
   },
+  presets: [require('nativewind/preset')],
   plugins: [],
   corePlugins: require('tailwind-rn/unsupported-core-plugins'),
 }
